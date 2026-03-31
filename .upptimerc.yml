@@ -9,7 +9,7 @@ sites:
       - 200
 
   - name: adrianwedd.com CDN
-    url: https://cdn.adrianwedd.com/notebook-assets/spark/audio.mp3
+    url: https://cdn.adrianwedd.com/test-api-upload.txt
     method: HEAD
     expectedStatusCodes:
       - 200
