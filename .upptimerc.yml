@@ -52,17 +52,6 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: OpenClaw
-    url: https://openclaw.ai
-    expectedStatusCodes:
-      - 200
-
-  - name: WorldMonitor
-    url: https://worldmonitor.app
-    expectedStatusCodes:
-      - 200
-      - 307
-
   - name: This Wasn't in the Brochure
     url: https://thiswasntinthebrochure.wtf
     expectedStatusCodes:
@@ -80,6 +69,38 @@ sites:
       - 200
       - 301
 
+  # --- AI providers ---
+  - name: Anthropic (Claude)
+    url: https://status.claude.com
+    expectedStatusCodes:
+      - 200
+
+  - name: OpenAI
+    url: https://status.openai.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Google Cloud
+    url: https://status.cloud.google.com
+    expectedStatusCodes:
+      - 200
+
+  # --- Infrastructure ---
+  - name: GitHub
+    url: https://www.githubstatus.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Cloudflare
+    url: https://www.cloudflarestatus.com
+    expectedStatusCodes:
+      - 200
+
+  - name: npm
+    url: https://status.npmjs.org
+    expectedStatusCodes:
+      - 200
+
   # --- Self-check ---
   - name: Status Page
     url: https://status.adrianwedd.com
@@ -96,7 +117,7 @@ status-website:
   faviconSvg: https://adrianwedd.com/favicon.svg
   name: "Adrian Wedd"
   introTitle: "**System Status**"
-  introMessage: "Real-time monitoring across [adrianwedd.com](https://adrianwedd.com), client sites, research projects, and infrastructure."
+  introMessage: "Real-time monitoring across [adrianwedd.com](https://adrianwedd.com), client sites, research projects, and infrastructure dependencies."
   theme: dark
   navbar:
     - title: Status
@@ -157,7 +178,7 @@ status-website:
       color: var(--color-text-muted) !important;
     }
 
-    /* Cards — surface-alt with plum border */
+    /* Cards and containers */
     .card, .rounded, .shadow, .bg-white, [class*="card"] {
       background-color: var(--color-surface-alt) !important;
       border: 1px solid var(--color-border) !important;
