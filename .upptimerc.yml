@@ -63,6 +63,11 @@ sites:
       - 200
       - 307
 
+  - name: This Wasn't in the Brochure
+    url: https://thiswasntinthebrochure.wtf
+    expectedStatusCodes:
+      - 200
+
   # --- GitHub Pages projects ---
   - name: Before the Words Existed
     url: https://adrianwedd.github.io/before-the-words-existed/
@@ -75,7 +80,7 @@ sites:
       - 200
       - 301
 
-  # --- Status page ---
+  # --- Self-check ---
   - name: Status Page
     url: https://status.adrianwedd.com
     expectedStatusCodes:
@@ -86,11 +91,127 @@ assignees:
 
 status-website:
   cname: status.adrianwedd.com
-  name: Adrian Wedd Status
-  theme: dark
   logoUrl: https://adrianwedd.com/favicon.svg
+  favicon: https://adrianwedd.com/favicon.svg
+  faviconSvg: https://adrianwedd.com/favicon.svg
+  name: "Adrian Wedd"
+  introTitle: "**System Status**"
+  introMessage: "Real-time monitoring across [adrianwedd.com](https://adrianwedd.com), client sites, research projects, and infrastructure."
+  theme: dark
+  navbar:
+    - title: Status
+      href: /
+    - title: Projects
+      href: https://adrianwedd.com/projects/
+    - title: Blog
+      href: https://adrianwedd.com/blog/
+    - title: Website
+      href: https://adrianwedd.com
+  css: |
+    /* adrianwedd.com botanical dark theme — system fonts, dusty copper accent */
+    :root {
+      --color-surface: #1a181c;
+      --color-surface-alt: #24212a;
+      --color-surface-raised: #2e2a34;
+      --color-text: #e2ddd8;
+      --color-text-muted: #968e96;
+      --color-accent: #c48b6e;
+      --color-accent-hover: #d49e82;
+      --color-border: #3d3844;
+    }
 
-  - name: This Wasn't in the Brochure
-    url: https://thiswasntinthebrochure.wtf
-    expectedStatusCodes:
-      - 200
+    body {
+      background-color: var(--color-surface) !important;
+      color: var(--color-text) !important;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    }
+
+    /* Nav — plum-dark with copper accents */
+    nav, .navbar, header {
+      background-color: var(--color-surface-alt) !important;
+      border-bottom: 1px solid var(--color-border) !important;
+    }
+    nav a, .navbar a, .nav-link {
+      color: var(--color-text-muted) !important;
+      font-size: 0.85rem !important;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+    nav a:hover, .navbar a:hover {
+      color: var(--color-accent) !important;
+    }
+    .navbar-brand, .logo, nav .font-weight-bold {
+      color: var(--color-text) !important;
+      font-weight: 600 !important;
+    }
+
+    /* Headings */
+    h1, h2, h3, h4, h5 {
+      color: var(--color-text) !important;
+      font-weight: 600;
+    }
+    h1 { color: var(--color-accent) !important; }
+
+    /* Intro */
+    .intro, .description, .lead {
+      color: var(--color-text-muted) !important;
+    }
+
+    /* Cards — surface-alt with plum border */
+    .card, .rounded, .shadow, .bg-white, [class*="card"] {
+      background-color: var(--color-surface-alt) !important;
+      border: 1px solid var(--color-border) !important;
+      border-radius: 8px !important;
+      color: var(--color-text) !important;
+    }
+
+    /* Status indicators */
+    .bg-success, .badge-success { background-color: #166534 !important; }
+    .text-success { color: #4ade80 !important; }
+    .bg-danger, .badge-danger { background-color: #991b1b !important; }
+    .text-danger { color: #f87171 !important; }
+
+    /* Links — dusty copper */
+    a { color: var(--color-accent) !important; transition: color 0.2s; }
+    a:hover { color: var(--color-accent-hover) !important; text-decoration: none !important; }
+
+    /* Tables */
+    table, .table { color: var(--color-text) !important; }
+    th {
+      font-size: 0.8rem !important;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--color-text-muted) !important;
+    }
+    tr { border-color: var(--color-border) !important; }
+
+    /* Footer */
+    footer {
+      background-color: var(--color-surface) !important;
+      border-top: 1px solid var(--color-border) !important;
+      color: var(--color-text-muted) !important;
+      font-size: 0.8rem;
+    }
+
+    /* Override white backgrounds */
+    .bg-light, .bg-white, .container-fluid, main {
+      background-color: transparent !important;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--color-surface); }
+    ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--color-accent); }
+
+    /* Subtle accent glow on cards */
+    .card:hover { border-color: rgba(196, 139, 110, 0.3) !important; }
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: Incident report
+  activeIncident: Active incident
+  pastIncidents: Past incidents
+  pastIncidentsResolved: Past incidents resolved
+  liveStatus: Live status
