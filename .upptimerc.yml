@@ -1,0 +1,53 @@
+owner: adrianwedd
+repo: upptime
+
+sites:
+  - name: adrianwedd.com
+    url: https://adrianwedd.com
+    expectedStatusCodes:
+      - 200
+
+  - name: CDN (audio)
+    url: https://cdn.adrianwedd.com/notebook-assets/spark/audio.mp3
+    method: HEAD
+    expectedStatusCodes:
+      - 200
+
+  - name: Sitemap
+    url: https://adrianwedd.com/sitemap-index.xml
+    expectedStatusCodes:
+      - 200
+
+  - name: Social Worker
+    url: https://social.adrianwedd.com/api/health
+    expectedStatusCodes:
+      - 200
+
+  - name: Failure First
+    url: https://failurefirst.org
+    expectedStatusCodes:
+      - 200
+
+  - name: Evolve Chiropractic
+    url: https://evolvechiropractictas.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Podcast RSS
+    url: https://adrianwedd.com/audio/feed.xml
+    expectedStatusCodes:
+      - 200
+
+  - name: Blog RSS
+    url: https://adrianwedd.com/blog/rss.xml
+    expectedStatusCodes:
+      - 200
+
+assignees:
+  - adrianwedd
+
+status-website:
+  cname: status.adrianwedd.com
+  name: Adrian Wedd Status
+  theme: dark
+  logoUrl: https://adrianwedd.com/favicon.svg
