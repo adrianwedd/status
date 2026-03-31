@@ -2,39 +2,64 @@ owner: adrianwedd
 repo: upptime
 
 sites:
-  # --- adrianwedd.com ---
+  # ╔══════════════════════════════════════╗
+  # ║  adrianwedd.com                      ║
+  # ╚══════════════════════════════════════╝
   - name: adrianwedd.com
     url: https://adrianwedd.com
+    icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
       - 200
 
   - name: adrianwedd.com CDN
     url: https://cdn.adrianwedd.com/test-api-upload.txt
+    icon: https://adrianwedd.com/favicon.svg
     method: HEAD
     expectedStatusCodes:
       - 200
 
   - name: adrianwedd.com Sitemap
     url: https://adrianwedd.com/sitemap-index.xml
+    icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
       - 200
 
   - name: adrianwedd.com Podcast RSS
     url: https://adrianwedd.com/audio/feed.xml
+    icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
       - 200
 
   - name: adrianwedd.com Blog RSS
     url: https://adrianwedd.com/blog/rss.xml
+    icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
       - 200
 
   - name: Social Worker
     url: https://social.adrianwedd.com/api/health
+    icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
       - 200
 
-  # --- Client sites ---
+  # ╔══════════════════════════════════════╗
+  # ║  SPARK                               ║
+  # ╚══════════════════════════════════════╝
+  - name: SPARK (site)
+    url: https://spark.wedd.au
+    icon: https://spark.wedd.au/og-image.png
+    expectedStatusCodes:
+      - 200
+
+  - name: SPARK API (thoughts)
+    url: https://spark-api.wedd.au/api/v1/public/thoughts
+    icon: https://spark.wedd.au/og-image.png
+    expectedStatusCodes:
+      - 200
+
+  # ╔══════════════════════════════════════╗
+  # ║  Client sites                        ║
+  # ╚══════════════════════════════════════╝
   - name: Evolve Chiropractic
     url: https://evolvechiropractictas.com
     expectedStatusCodes:
@@ -61,7 +86,9 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # --- Research & projects ---
+  # ╔══════════════════════════════════════╗
+  # ║  Research & projects                 ║
+  # ╚══════════════════════════════════════╝
   - name: Failure First
     url: https://failurefirst.org
     expectedStatusCodes:
@@ -72,7 +99,9 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # --- GitHub Pages projects ---
+  # ╔══════════════════════════════════════╗
+  # ║  GitHub Pages projects               ║
+  # ╚══════════════════════════════════════╝
   - name: Before the Words Existed
     url: https://adrianwedd.github.io/before-the-words-existed/
     expectedStatusCodes:
@@ -84,7 +113,9 @@ sites:
       - 200
       - 301
 
-  # --- AI providers ---
+  # ╔══════════════════════════════════════╗
+  # ║  AI providers                        ║
+  # ╚══════════════════════════════════════╝
   - name: Anthropic (Claude)
     url: https://status.claude.com
     expectedStatusCodes:
@@ -100,7 +131,9 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # --- Infrastructure ---
+  # ╔══════════════════════════════════════╗
+  # ║  Infrastructure                      ║
+  # ╚══════════════════════════════════════╝
   - name: GitHub
     url: https://www.githubstatus.com
     expectedStatusCodes:
@@ -116,7 +149,9 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # --- Self-check ---
+  # ╔══════════════════════════════════════╗
+  # ║  Self-check                          ║
+  # ╚══════════════════════════════════════╝
   - name: Status Page
     url: https://status.adrianwedd.com
     expectedStatusCodes:
@@ -132,15 +167,15 @@ status-website:
   faviconSvg: https://adrianwedd.com/favicon.svg
   name: "Adrian Wedd"
   introTitle: "**System Status**"
-  introMessage: "Real-time monitoring across [adrianwedd.com](https://adrianwedd.com), client sites, research projects, and infrastructure dependencies."
+  introMessage: "Real-time monitoring across [adrianwedd.com](https://adrianwedd.com), [SPARK](https://spark.wedd.au), client sites, research projects, AI providers, and infrastructure."
   theme: dark
   navbar:
     - title: Status
       href: /
+    - title: SPARK
+      href: https://spark.wedd.au
     - title: Projects
       href: https://adrianwedd.com/projects/
-    - title: Blog
-      href: https://adrianwedd.com/blog/
     - title: Website
       href: https://adrianwedd.com
   css: |
@@ -162,7 +197,6 @@ status-website:
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
     }
 
-    /* Nav — plum-dark with copper accents */
     nav, .navbar, header {
       background-color: var(--color-surface-alt) !important;
       border-bottom: 1px solid var(--color-border) !important;
@@ -181,19 +215,16 @@ status-website:
       font-weight: 600 !important;
     }
 
-    /* Headings */
     h1, h2, h3, h4, h5 {
       color: var(--color-text) !important;
       font-weight: 600;
     }
     h1 { color: var(--color-accent) !important; }
 
-    /* Intro */
     .intro, .description, .lead {
       color: var(--color-text-muted) !important;
     }
 
-    /* Cards and containers */
     .card, .rounded, .shadow, .bg-white, [class*="card"] {
       background-color: var(--color-surface-alt) !important;
       border: 1px solid var(--color-border) !important;
@@ -201,7 +232,6 @@ status-website:
       color: var(--color-text) !important;
     }
 
-    /* Status indicators */
     /* Up — muted sage green */
     .bg-success, .badge-success { background-color: #2d5a3d !important; }
     .text-success { color: #7dba94 !important; }
@@ -209,11 +239,9 @@ status-website:
     .bg-danger, .badge-danger { background-color: #8b3a2a !important; }
     .text-danger { color: #d4816b !important; }
 
-    /* Links — dusty copper */
     a { color: var(--color-accent) !important; transition: color 0.2s; }
     a:hover { color: var(--color-accent-hover) !important; text-decoration: none !important; }
 
-    /* Tables */
     table, .table { color: var(--color-text) !important; }
     th {
       font-size: 0.8rem !important;
@@ -223,7 +251,6 @@ status-website:
     }
     tr { border-color: var(--color-border) !important; }
 
-    /* Footer */
     footer {
       background-color: var(--color-surface) !important;
       border-top: 1px solid var(--color-border) !important;
@@ -231,18 +258,15 @@ status-website:
       font-size: 0.8rem;
     }
 
-    /* Override white backgrounds */
     .bg-light, .bg-white, .container-fluid, main {
       background-color: transparent !important;
     }
 
-    /* Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: var(--color-surface); }
     ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 4px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--color-accent); }
 
-    /* Subtle accent glow on cards */
     .card:hover { border-color: rgba(196, 139, 110, 0.3) !important; }
 
 i18n:
