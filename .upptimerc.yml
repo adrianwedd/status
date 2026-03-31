@@ -56,8 +56,8 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: Annica Larsdotter Coaching
-    url: https://annicalarsdotter.coach
+  - name: True Capacity Coaching
+    url: https://truecapacity.coach
     expectedStatusCodes:
       - 200
 
