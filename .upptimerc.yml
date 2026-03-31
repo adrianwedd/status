@@ -2,19 +2,30 @@ owner: adrianwedd
 repo: upptime
 
 sites:
+  # --- adrianwedd.com ---
   - name: adrianwedd.com
     url: https://adrianwedd.com
     expectedStatusCodes:
       - 200
 
-  - name: CDN (audio)
+  - name: adrianwedd.com CDN
     url: https://cdn.adrianwedd.com/notebook-assets/spark/audio.mp3
     method: HEAD
     expectedStatusCodes:
       - 200
 
-  - name: Sitemap
+  - name: adrianwedd.com Sitemap
     url: https://adrianwedd.com/sitemap-index.xml
+    expectedStatusCodes:
+      - 200
+
+  - name: adrianwedd.com Podcast RSS
+    url: https://adrianwedd.com/audio/feed.xml
+    expectedStatusCodes:
+      - 200
+
+  - name: adrianwedd.com Blog RSS
+    url: https://adrianwedd.com/blog/rss.xml
     expectedStatusCodes:
       - 200
 
@@ -23,23 +34,50 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: Failure First
-    url: https://failurefirst.org
-    expectedStatusCodes:
-      - 200
-
+  # --- Client sites ---
   - name: Evolve Chiropractic
     url: https://evolvechiropractictas.com
     expectedStatusCodes:
       - 200
 
-  - name: Podcast RSS
-    url: https://adrianwedd.com/audio/feed.xml
+  - name: Evolve Hub
+    url: https://evolve.adrianwedd.com
+    expectedStatusCodes:
+      - 401
+      - 200
+
+  # --- Research & projects ---
+  - name: Failure First
+    url: https://failurefirst.org
     expectedStatusCodes:
       - 200
 
-  - name: Blog RSS
-    url: https://adrianwedd.com/blog/rss.xml
+  - name: OpenClaw
+    url: https://openclaw.ai
+    expectedStatusCodes:
+      - 200
+
+  - name: WorldMonitor
+    url: https://worldmonitor.app
+    expectedStatusCodes:
+      - 200
+      - 307
+
+  # --- GitHub Pages projects ---
+  - name: Before the Words Existed
+    url: https://adrianwedd.github.io/before-the-words-existed/
+    expectedStatusCodes:
+      - 200
+
+  - name: Living CV
+    url: https://adrianwedd.github.io/cv/
+    expectedStatusCodes:
+      - 200
+      - 301
+
+  # --- Status page ---
+  - name: Status Page
+    url: https://status.adrianwedd.com
     expectedStatusCodes:
       - 200
 
