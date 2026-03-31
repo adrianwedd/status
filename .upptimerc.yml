@@ -46,6 +46,21 @@ sites:
       - 401
       - 200
 
+  - name: Tanda Pizza
+    url: https://tandapizza.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Annica Larsdotter
+    url: https://annicalarsdotter.com
+    expectedStatusCodes:
+      - 200
+
+  - name: Annica Larsdotter Coaching
+    url: https://annicalarsdotter.coach
+    expectedStatusCodes:
+      - 200
+
   # --- Research & projects ---
   - name: Failure First
     url: https://failurefirst.org
