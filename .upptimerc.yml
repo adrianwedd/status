@@ -51,8 +51,8 @@ sites:
     expectedStatusCodes:
       - 200
 
-  - name: SPARK API (thoughts)
-    url: https://spark-api.wedd.au/api/v1/public/thoughts
+  - name: SPARK API (status)
+    url: https://spark-api.wedd.au/api/v1/public/status
     icon: https://spark.wedd.au/og-image.png
     expectedStatusCodes:
       - 200
