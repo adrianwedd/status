@@ -89,3 +89,8 @@ status-website:
   name: Adrian Wedd Status
   theme: dark
   logoUrl: https://adrianwedd.com/favicon.svg
+
+  - name: This Wasn't in the Brochure
+    url: https://thiswasntinthebrochure.wtf
+    expectedStatusCodes:
+      - 200
