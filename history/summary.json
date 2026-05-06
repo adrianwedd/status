@@ -116,18 +116,19 @@
     "url": "https://thiswasntinthebrochure.wtf/api/health?deep",
     "icon": "https://icons.duckduckgo.com/ip3/thiswasntinthebrochure.wtf.ico",
     "slug": "health-deep",
-    "status": "up",
+    "status": "down",
     "uptime": "99.89%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.89%",
     "time": 354,
-    "timeDay": 253,
-    "timeWeek": 392,
-    "timeMonth": 380,
+    "timeDay": 304,
+    "timeWeek": 387,
+    "timeMonth": 379,
     "timeYear": 354,
     "dailyMinutesDown": {
+      "2026-05-06": 0,
       "2026-03-31": 58
     }
   },
@@ -136,18 +137,20 @@
     "url": "https://assets.thiswasntinthebrochure.wtf/test.txt",
     "icon": "https://icons.duckduckgo.com/ip3/assets.thiswasntinthebrochure.wtf.ico",
     "slug": "r2-cdn-assets",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 281,
-    "timeDay": 269,
-    "timeWeek": 263,
-    "timeMonth": 288,
-    "timeYear": 281,
-    "dailyMinutesDown": {}
+    "time": 278,
+    "timeDay": 210,
+    "timeWeek": 249,
+    "timeMonth": 283,
+    "timeYear": 278,
+    "dailyMinutesDown": {
+      "2026-05-06": 0
+    }
   },
   {
     "name": "Research RSS",
@@ -202,7 +205,7 @@
     "timeMonth": 610,
     "timeYear": 611,
     "dailyMinutesDown": {
-      "2026-05-06": 21,
+      "2026-05-06": 64,
       "2026-05-05": 1440,
       "2026-05-04": 1440,
       "2026-05-03": 1440,
@@ -314,7 +317,7 @@
     "timeMonth": 93,
     "timeYear": 88,
     "dailyMinutesDown": {
-      "2026-05-06": 21,
+      "2026-05-06": 64,
       "2026-05-05": 1440,
       "2026-05-04": 1440,
       "2026-05-03": 1440,
