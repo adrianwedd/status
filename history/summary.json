@@ -139,11 +139,11 @@
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
     "status": "down",
-    "uptime": "92.93%",
-    "uptimeDay": "82.07%",
-    "uptimeWeek": "90.94%",
-    "uptimeMonth": "97.56%",
-    "uptimeYear": "92.93%",
+    "uptime": "92.88%",
+    "uptimeDay": "78.14%",
+    "uptimeWeek": "90.38%",
+    "uptimeMonth": "97.43%",
+    "uptimeYear": "92.88%",
     "time": 425,
     "timeDay": 33,
     "timeWeek": 703,
@@ -161,7 +161,8 @@
       "2026-05-30": 148,
       "2026-06-01": 420,
       "2026-06-02": 87,
-      "2026-06-04": 258
+      "2026-06-05": 34,
+      "2026-06-04": 281
     }
   },
   {
@@ -348,9 +349,9 @@
     "slug": "anthropic-claude",
     "status": "up",
     "uptime": "99.63%",
-    "uptimeDay": "93.97%",
-    "uptimeWeek": "96.93%",
-    "uptimeMonth": "99.29%",
+    "uptimeDay": "94.42%",
+    "uptimeWeek": "96.99%",
+    "uptimeMonth": "99.31%",
     "uptimeYear": "99.63%",
     "time": 207,
     "timeDay": 72,
@@ -362,7 +363,7 @@
       "2026-04-26": 7,
       "2026-06-02": 124,
       "2026-06-03": 98,
-      "2026-06-04": 86
+      "2026-06-04": 80
     }
   },
   {
@@ -407,11 +408,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.githubstatus.com.ico",
     "slug": "git-hub",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "94.00%",
-    "uptimeWeek": "96.94%",
-    "uptimeMonth": "99.30%",
-    "uptimeYear": "99.57%",
+    "uptime": "99.58%",
+    "uptimeDay": "94.44%",
+    "uptimeWeek": "97.00%",
+    "uptimeMonth": "99.31%",
+    "uptimeYear": "99.58%",
     "time": 242,
     "timeDay": 87,
     "timeWeek": 350,
@@ -422,7 +423,7 @@
       "2026-04-26": 58,
       "2026-06-02": 124,
       "2026-06-03": 98,
-      "2026-06-04": 86
+      "2026-06-04": 80
     }
   },
   {
@@ -431,11 +432,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.cloudflarestatus.com.ico",
     "slug": "cloudflare",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "94.03%",
-    "uptimeWeek": "96.95%",
-    "uptimeMonth": "99.30%",
-    "uptimeYear": "99.57%",
+    "uptime": "99.58%",
+    "uptimeDay": "94.45%",
+    "uptimeWeek": "97.01%",
+    "uptimeMonth": "99.31%",
+    "uptimeYear": "99.58%",
     "time": 230,
     "timeDay": 143,
     "timeWeek": 173,
@@ -446,7 +447,7 @@
       "2026-04-26": 58,
       "2026-06-02": 124,
       "2026-06-03": 98,
-      "2026-06-04": 86
+      "2026-06-04": 80
     }
   },
   {
@@ -455,11 +456,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.npmjs.org.ico",
     "slug": "npm",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "94.06%",
-    "uptimeWeek": "96.96%",
-    "uptimeMonth": "99.30%",
-    "uptimeYear": "99.57%",
+    "uptime": "99.58%",
+    "uptimeDay": "94.47%",
+    "uptimeWeek": "97.02%",
+    "uptimeMonth": "99.31%",
+    "uptimeYear": "99.58%",
     "time": 268,
     "timeDay": 142,
     "timeWeek": 172,
@@ -470,7 +471,7 @@
       "2026-04-26": 58,
       "2026-06-02": 123,
       "2026-06-03": 98,
-      "2026-06-04": 86
+      "2026-06-04": 80
     }
   },
   {
