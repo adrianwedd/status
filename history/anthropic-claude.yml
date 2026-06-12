@@ -1,7 +1,7 @@
 url: https://status.claude.com
-status: down
-code: 405
-responseTime: 57
-lastUpdated: 2026-06-12T20:33:05.756Z
+status: up
+code: 200
+responseTime: 126
+lastUpdated: 2026-06-12T21:51:35.362Z
 startTime: 2026-03-31T12:53:45.129Z
 generator: Upptime <https://github.com/upptime/upptime>
