@@ -1,7 +1,7 @@
 url: https://spark-api.wedd.au/api/v1/public/status
-status: up
-code: 200
-responseTime: 989
-lastUpdated: 2026-06-11T23:34:46.306Z
+status: down
+code: 530
+responseTime: 50
+lastUpdated: 2026-06-12T19:04:25.332Z
 startTime: 2026-03-31T13:37:12.075Z
 generator: Upptime <https://github.com/upptime/upptime>
