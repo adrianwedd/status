@@ -13,7 +13,7 @@
     "time": 210,
     "timeDay": 168,
     "timeWeek": 216,
-    "timeMonth": 210,
+    "timeMonth": 211,
     "timeYear": 210,
     "dailyMinutesDown": {}
   },
@@ -51,7 +51,7 @@
     "time": 73,
     "timeDay": 93,
     "timeWeek": 119,
-    "timeMonth": 105,
+    "timeMonth": 108,
     "timeYear": 73,
     "dailyMinutesDown": {}
   },
@@ -69,7 +69,7 @@
     "time": 71,
     "timeDay": 100,
     "timeWeek": 136,
-    "timeMonth": 98,
+    "timeMonth": 101,
     "timeYear": 71,
     "dailyMinutesDown": {}
   },
@@ -87,7 +87,7 @@
     "time": 76,
     "timeDay": 95,
     "timeWeek": 130,
-    "timeMonth": 103,
+    "timeMonth": 105,
     "timeYear": 76,
     "dailyMinutesDown": {}
   },
@@ -105,7 +105,7 @@
     "time": 143,
     "timeDay": 92,
     "timeWeek": 136,
-    "timeMonth": 132,
+    "timeMonth": 134,
     "timeYear": 143,
     "dailyMinutesDown": {}
   },
@@ -115,15 +115,15 @@
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-site",
     "status": "up",
-    "uptime": "94.83%",
+    "uptime": "94.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "94.83%",
+    "uptimeYear": "94.90%",
     "time": 158,
     "timeDay": 135,
     "timeWeek": 173,
-    "timeMonth": 163,
+    "timeMonth": 167,
     "timeYear": 158,
     "dailyMinutesDown": {
       "2026-04-04": 647,
@@ -139,15 +139,15 @@
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
     "status": "down",
-    "uptime": "89.29%",
+    "uptime": "88.17%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "64.01%",
-    "uptimeMonth": "86.19%",
-    "uptimeYear": "89.29%",
+    "uptimeWeek": "55.82%",
+    "uptimeMonth": "83.06%",
+    "uptimeYear": "88.17%",
     "time": 480,
     "timeDay": 35,
-    "timeWeek": 557,
-    "timeMonth": 743,
+    "timeWeek": 591,
+    "timeMonth": 752,
     "timeYear": 480,
     "dailyMinutesDown": {
       "2026-04-04": 647,
@@ -168,7 +168,7 @@
       "2026-06-08": 578,
       "2026-06-10": 84,
       "2026-06-12": 127,
-      "2026-06-15": 36,
+      "2026-06-15": 1407,
       "2026-06-14": 1440,
       "2026-06-13": 349
     }
@@ -187,7 +187,7 @@
     "time": 173,
     "timeDay": 104,
     "timeWeek": 201,
-    "timeMonth": 163,
+    "timeMonth": 164,
     "timeYear": 173,
     "dailyMinutesDown": {
       "2026-04-09": 10,
@@ -209,7 +209,7 @@
     "time": 150,
     "timeDay": 120,
     "timeWeek": 141,
-    "timeMonth": 139,
+    "timeMonth": 138,
     "timeYear": 150,
     "dailyMinutesDown": {
       "2026-04-30": 34
@@ -229,7 +229,7 @@
     "time": 180,
     "timeDay": 123,
     "timeWeek": 175,
-    "timeMonth": 166,
+    "timeMonth": 165,
     "timeYear": 180,
     "dailyMinutesDown": {
       "2026-05-05": 31
@@ -269,7 +269,7 @@
     "time": 346,
     "timeDay": 437,
     "timeWeek": 301,
-    "timeMonth": 298,
+    "timeMonth": 291,
     "timeYear": 346,
     "dailyMinutesDown": {}
   },
@@ -287,7 +287,7 @@
     "time": 194,
     "timeDay": 391,
     "timeWeek": 244,
-    "timeMonth": 206,
+    "timeMonth": 204,
     "timeYear": 194,
     "dailyMinutesDown": {
       "2026-04-24": 23
@@ -328,7 +328,7 @@
     "time": 121,
     "timeDay": 143,
     "timeWeek": 104,
-    "timeMonth": 103,
+    "timeMonth": 104,
     "timeYear": 121,
     "dailyMinutesDown": {}
   },
@@ -355,17 +355,17 @@
     "url": "https://status.claude.com",
     "icon": "https://icons.duckduckgo.com/ip3/status.claude.com.ico",
     "slug": "anthropic-claude",
-    "status": "up",
-    "uptime": "98.68%",
-    "uptimeDay": "96.09%",
-    "uptimeWeek": "97.57%",
+    "status": "down",
+    "uptime": "98.70%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "97.56%",
     "uptimeMonth": "96.83%",
-    "uptimeYear": "98.68%",
-    "time": 177,
-    "timeDay": 151,
-    "timeWeek": 134,
-    "timeMonth": 140,
-    "timeYear": 177,
+    "uptimeYear": "98.70%",
+    "time": 176,
+    "timeDay": 101,
+    "timeWeek": 128,
+    "timeMonth": 138,
+    "timeYear": 176,
     "dailyMinutesDown": {
       "2026-04-09": 36,
       "2026-04-26": 7,
@@ -378,7 +378,8 @@
       "2026-06-09": 53,
       "2026-06-10": 58,
       "2026-06-12": 79,
-      "2026-06-14": 56
+      "2026-06-14": 56,
+      "2026-06-15": 1
     }
   },
   {
@@ -395,7 +396,7 @@
     "time": 612,
     "timeDay": 435,
     "timeWeek": 496,
-    "timeMonth": 518,
+    "timeMonth": 517,
     "timeYear": 612,
     "dailyMinutesDown": {}
   },
@@ -413,7 +414,7 @@
     "time": 126,
     "timeDay": 66,
     "timeWeek": 113,
-    "timeMonth": 94,
+    "timeMonth": 95,
     "timeYear": 126,
     "dailyMinutesDown": {}
   },
@@ -422,17 +423,17 @@
     "url": "https://www.githubstatus.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.githubstatus.com.ico",
     "slug": "git-hub",
-    "status": "up",
-    "uptime": "98.64%",
-    "uptimeDay": "96.12%",
-    "uptimeWeek": "97.58%",
+    "status": "down",
+    "uptime": "98.66%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "97.57%",
     "uptimeMonth": "96.84%",
-    "uptimeYear": "98.64%",
-    "time": 202,
-    "timeDay": 155,
-    "timeWeek": 154,
-    "timeMonth": 191,
-    "timeYear": 202,
+    "uptimeYear": "98.66%",
+    "time": 201,
+    "timeDay": 102,
+    "timeWeek": 148,
+    "timeMonth": 189,
+    "timeYear": 201,
     "dailyMinutesDown": {
       "2026-04-09": 36,
       "2026-04-26": 58,
@@ -445,7 +446,8 @@
       "2026-06-09": 53,
       "2026-06-10": 57,
       "2026-06-12": 78,
-      "2026-06-14": 56
+      "2026-06-14": 56,
+      "2026-06-15": 1
     }
   },
   {
@@ -453,17 +455,17 @@
     "url": "https://www.cloudflarestatus.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.cloudflarestatus.com.ico",
     "slug": "cloudflare",
-    "status": "up",
-    "uptime": "98.64%",
-    "uptimeDay": "96.15%",
-    "uptimeWeek": "97.59%",
+    "status": "down",
+    "uptime": "98.66%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "97.58%",
     "uptimeMonth": "96.85%",
-    "uptimeYear": "98.64%",
-    "time": 200,
-    "timeDay": 201,
-    "timeWeek": 198,
-    "timeMonth": 167,
-    "timeYear": 200,
+    "uptimeYear": "98.66%",
+    "time": 199,
+    "timeDay": 116,
+    "timeWeek": 189,
+    "timeMonth": 165,
+    "timeYear": 199,
     "dailyMinutesDown": {
       "2026-04-09": 36,
       "2026-04-26": 58,
@@ -476,7 +478,8 @@
       "2026-06-09": 52,
       "2026-06-10": 57,
       "2026-06-12": 78,
-      "2026-06-14": 56
+      "2026-06-14": 56,
+      "2026-06-15": 1
     }
   },
   {
@@ -484,17 +487,17 @@
     "url": "https://status.npmjs.org",
     "icon": "https://icons.duckduckgo.com/ip3/status.npmjs.org.ico",
     "slug": "npm",
-    "status": "up",
-    "uptime": "98.65%",
-    "uptimeDay": "96.17%",
-    "uptimeWeek": "97.60%",
+    "status": "down",
+    "uptime": "98.66%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "97.59%",
     "uptimeMonth": "96.86%",
-    "uptimeYear": "98.65%",
-    "time": 241,
-    "timeDay": 150,
-    "timeWeek": 224,
-    "timeMonth": 179,
-    "timeYear": 241,
+    "uptimeYear": "98.66%",
+    "time": 239,
+    "timeDay": 145,
+    "timeWeek": 216,
+    "timeMonth": 180,
+    "timeYear": 239,
     "dailyMinutesDown": {
       "2026-04-09": 36,
       "2026-04-26": 58,
@@ -507,7 +510,8 @@
       "2026-06-09": 52,
       "2026-06-10": 57,
       "2026-06-12": 78,
-      "2026-06-14": 55
+      "2026-06-14": 55,
+      "2026-06-15": 0
     }
   },
   {
@@ -524,7 +528,7 @@
     "time": 155,
     "timeDay": 94,
     "timeWeek": 155,
-    "timeMonth": 133,
+    "timeMonth": 131,
     "timeYear": 155,
     "dailyMinutesDown": {}
   }
