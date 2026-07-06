@@ -58,6 +58,45 @@ sites:
       - 200
 
   # ╔══════════════════════════════════════╗
+  # ║  pi5 media box (wedd.au tunnels)     ║
+  # ╚══════════════════════════════════════╝
+  - name: Minecraft Status (site)
+    url: https://minecraft.wedd.au
+    expectedStatusCodes:
+      - 200
+
+  - name: Minecraft Status (API)
+    url: https://minecraft.wedd.au/api/status
+    expectedStatusCodes:
+      - 200
+
+  # CF Access–gated services: a 302 to the Access login proves the
+  # tunnel and origin routing are alive without needing credentials.
+  - name: qBittorrent (tunnel)
+    url: https://qb.wedd.au
+    expectedStatusCodes:
+      - 302
+      - 200
+
+  - name: Prowlarr (tunnel)
+    url: https://parr.wedd.au
+    expectedStatusCodes:
+      - 302
+      - 200
+
+  - name: Radarr (tunnel)
+    url: https://rarr.wedd.au
+    expectedStatusCodes:
+      - 302
+      - 200
+
+  - name: Sonarr (tunnel)
+    url: https://sarr.wedd.au
+    expectedStatusCodes:
+      - 302
+      - 200
+
+  # ╔══════════════════════════════════════╗
   # ║  Client sites                        ║
   # ╚══════════════════════════════════════╝
   - name: Evolve Chiropractic
