@@ -42,7 +42,7 @@ sites:
     url: https://social.adrianwedd.com/api/health
     icon: https://adrianwedd.com/favicon.svg
     headers:
-      - "Authorization: Bearer $SOCIAL_CLI_SECRET"
+      - "Authorization: Bearer $SECRET_SITE"
     expectedStatusCodes:
       - 200
 
