@@ -42,6 +42,33 @@ sites:
     expectedStatusCodes:
       - 200
 
+  - name: Contact Page
+    url: https://adrianwedd.com/contact/
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 200
+
+  - name: Booking Page
+    url: https://book.adrianwedd.com
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 200
+
+  # Fixed weekday date keeps the query static while still forcing the
+  # worker's service-account freeBusy call — an auth failure returns 500,
+  # so a 200 proves the whole Calendar auth path, not just the worker.
+  - name: Booking API (slots)
+    url: https://api.book.adrianwedd.com/slots?date=2030-01-01
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 200
+
+  - name: Ops Worker (enquiry API)
+    url: https://ops.adrianwedd.com/api/health
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 200
+
   # ╔══════════════════════════════════════╗
   # ║  SPARK                               ║
   # ╚══════════════════════════════════════╝
