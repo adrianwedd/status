@@ -165,11 +165,13 @@ sites:
       - 200
 
   # All 16 vanity redirects (spotify./gh./bsky. …) are one worker-links
-  # worker; a single 302 check covers the lot.
+  # worker; a single check covers the lot. The checker follows the 302, so
+  # a healthy probe lands on github.com with a 200.
   - name: Link Redirects (worker-links)
     url: https://gh.adrianwedd.com
     icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
+      - 200
       - 302
 
   # ╔══════════════════════════════════════╗
