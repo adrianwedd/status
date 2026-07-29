@@ -63,6 +63,14 @@ sites:
     expectedStatusCodes:
       - 200
 
+  # Refreshes the Gmail OAuth token server-side (no email sent); 503 when
+  # the refresh token dies, which /book deliberately hides (emailSent:false).
+  - name: Booking API (Gmail health)
+    url: https://api.book.adrianwedd.com/health
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 200
+
   - name: Ops Worker (enquiry API)
     url: https://ops.adrianwedd.com/api/health
     icon: https://adrianwedd.com/favicon.svg
