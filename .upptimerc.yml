@@ -58,9 +58,12 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # Fixed weekday date keeps the query static while still forcing the
-  # worker's service-account freeBusy call — an auth failure returns 500,
-  # so a 200 proves the whole Calendar auth path, not just the worker.
+  # Fixed date keeps the query static while still forcing the worker's
+  # service-account freeBusy call — an auth failure returns 500, so a 200
+  # proves the whole Calendar auth path, not just the worker.
+  # ⚠ MUST be a WEEKDAY: a weekend date short-circuits to 200 {slots:[]}
+  # BEFORE any Google call and this check would stay green forever.
+  # (2030-01-01 is a Tuesday. /health also verifies calendar auth now.)
   - name: Booking API (slots)
     url: https://api.book.adrianwedd.com/slots?date=2030-01-01
     icon: https://adrianwedd.com/favicon.svg
@@ -77,6 +80,15 @@ sites:
 
   - name: Ops Worker (enquiry API)
     url: https://ops.adrianwedd.com/api/health
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 200
+
+  # 503 while the hourly Xero keepalive reports the refresh token rejected.
+  # Separate from the worker check so a dead accounting sync doesn't show
+  # the enquiry API as down.
+  - name: Xero Connection (ops)
+    url: https://ops.adrianwedd.com/api/health/xero
     icon: https://adrianwedd.com/favicon.svg
     expectedStatusCodes:
       - 200
