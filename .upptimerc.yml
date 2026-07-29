@@ -36,9 +36,13 @@ sites:
     expectedStatusCodes:
       - 200
 
+  # Authenticated: the worker returns 503 when any platform token is invalid,
+  # so this alerts on FB/IG/Bluesky/Twitter token expiry, not just up-ness.
   - name: Social Worker
     url: https://social.adrianwedd.com/api/health
     icon: https://adrianwedd.com/favicon.svg
+    headers:
+      - "Authorization: Bearer $SOCIAL_CLI_SECRET"
     expectedStatusCodes:
       - 200
 
@@ -160,9 +164,22 @@ sites:
     expectedStatusCodes:
       - 200
 
+  # All 16 vanity redirects (spotify./gh./bsky. …) are one worker-links
+  # worker; a single 302 check covers the lot.
+  - name: Link Redirects (worker-links)
+    url: https://gh.adrianwedd.com
+    icon: https://adrianwedd.com/favicon.svg
+    expectedStatusCodes:
+      - 302
+
   # ╔══════════════════════════════════════╗
   # ║  Research & projects                 ║
   # ╚══════════════════════════════════════╝
+  - name: The Ungovernable Body
+    url: https://ungovernable-body.wedd.au
+    expectedStatusCodes:
+      - 200
+
   - name: Failure First
     url: https://failurefirst.org
     expectedStatusCodes:
