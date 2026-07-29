@@ -248,8 +248,8 @@
     "slug": "spark-api-status",
     "status": "down",
     "uptime": "87.12%",
-    "uptimeDay": "61.18%",
-    "uptimeWeek": "74.45%",
+    "uptimeDay": "61.15%",
+    "uptimeWeek": "74.44%",
     "uptimeMonth": "88.09%",
     "uptimeYear": "87.12%",
     "time": 656,
@@ -299,7 +299,7 @@
       "2026-07-24": 577,
       "2026-07-27": 546,
       "2026-07-28": 51,
-      "2026-07-29": 559
+      "2026-07-29": 560
     }
   },
   {
@@ -536,11 +536,11 @@
     "icon": "https://adrianwedd.com/favicon.svg",
     "slug": "link-redirects-worker-links",
     "status": "up",
-    "uptime": "44.72%",
-    "uptimeDay": "44.72%",
-    "uptimeWeek": "44.72%",
-    "uptimeMonth": "44.72%",
-    "uptimeYear": "44.72%",
+    "uptime": "45.40%",
+    "uptimeDay": "45.40%",
+    "uptimeWeek": "45.40%",
+    "uptimeMonth": "45.40%",
+    "uptimeYear": "45.40%",
     "time": 357,
     "timeDay": 357,
     "timeWeek": 357,
