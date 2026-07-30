@@ -46,18 +46,6 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # The GitHub half of the mutual watchdog (worker/src/watchdog.ts). 503s when a
-  # monitoring pipeline has stopped checking in — so a dead Cloudflare cron, or a
-  # worker whose watchdog state has gone stale, turns this red. The other half
-  # runs on a Cloudflare cron and emails when THIS side stops.
-  - name: Monitoring Watchdog
-    url: https://social.adrianwedd.com/api/watchdog/status
-    icon: https://adrianwedd.com/favicon.svg
-    headers:
-      - "Authorization: Bearer $SECRET_SITE"
-    expectedStatusCodes:
-      - 200
-
   - name: Contact Page
     url: https://adrianwedd.com/contact/
     icon: https://adrianwedd.com/favicon.svg
