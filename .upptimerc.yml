@@ -36,8 +36,17 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # Authenticated: the worker returns 503 when any platform token is invalid,
-  # so this alerts on FB/IG/Bluesky/Twitter token expiry, not just up-ness.
+  # Authenticated: the worker returns 503 when any platform token is invalid, a
+  # cron heartbeat is stale, a crisis flag was never emailed, or the queue has
+  # stalled — so this alerts on all of those, not just up-ness.
+  #
+  # The body assertion is load-bearing, not belt-and-braces. Unauthenticated (or
+  # with a wrong token) the endpoint answers `200 {"ok":true}` — verified live
+  # 2026-07-30 — so if $SECRET_SITE is ever unset, rotated, or misspelled, a
+  # status-code-only check goes PERMANENTLY GREEN while monitoring nothing. That
+  # is the exact "cries wolf / stays silent" failure this whole check exists to
+  # avoid, and it fails in the silent direction. `platforms` appears only in the
+  # authenticated body.
   - name: Social Worker
     url: https://social.adrianwedd.com/api/health
     icon: https://adrianwedd.com/favicon.svg
@@ -45,6 +54,7 @@ sites:
       - "Authorization: Bearer $SECRET_SITE"
     expectedStatusCodes:
       - 200
+    __dangerous__body_down_if_text_missing: "platforms"
 
   - name: Contact Page
     url: https://adrianwedd.com/contact/
