@@ -131,31 +131,15 @@ sites:
     expectedStatusCodes:
       - 200
 
-  # CF Access–gated services: a 302 to the Access login proves the
-  # tunnel and origin routing are alive without needing credentials.
-  - name: qBittorrent (tunnel)
-    url: https://qb.wedd.au
-    expectedStatusCodes:
-      - 302
-      - 200
-
-  - name: Prowlarr (tunnel)
-    url: https://parr.wedd.au
-    expectedStatusCodes:
-      - 302
-      - 200
-
-  - name: Radarr (tunnel)
-    url: https://rarr.wedd.au
-    expectedStatusCodes:
-      - 302
-      - 200
-
-  - name: Sonarr (tunnel)
-    url: https://sarr.wedd.au
-    expectedStatusCodes:
-      - 302
-      - 200
+  # The four CF Access-gated tunnel services (qBittorrent/Prowlarr/Radarr/
+  # Sonarr on *.wedd.au) were REMOVED 2026-07-31. They were not a security
+  # hole -- all four correctly 302 to the Access login -- but summary.json is
+  # public and publishes `url`, `slug` and a favicon URL alongside `name`, so
+  # this page was enumerating otherwise-unguessable private hostnames, and
+  # labelling what runs behind them, under a real-name domain. Renaming the
+  # checks would not have helped: the hostname is in the data, not the label.
+  # Tunnel-health monitoring is a GAP as a result -- re-add it somewhere
+  # authenticated (the worker watchdog), not here.
 
   # ╔══════════════════════════════════════╗
   # ║  Client sites                        ║
