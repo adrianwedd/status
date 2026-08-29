@@ -98,7 +98,7 @@
     "slug": "social-worker",
     "status": "up",
     "uptime": "98.60%",
-    "uptimeDay": "64.82%",
+    "uptimeDay": "65.16%",
     "uptimeWeek": "73.63%",
     "uptimeMonth": "93.03%",
     "uptimeYear": "98.60%",
@@ -257,7 +257,7 @@
     "uptime": "89.08%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "96.68%",
-    "uptimeMonth": "95.58%",
+    "uptimeMonth": "95.59%",
     "uptimeYear": "89.08%",
     "time": 845,
     "timeDay": 851,
@@ -613,16 +613,16 @@
     "url": "https://status.claude.com",
     "icon": "https://icons.duckduckgo.com/ip3/status.claude.com.ico",
     "slug": "anthropic-claude",
-    "status": "down",
+    "status": "up",
     "uptime": "98.86%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "98.64%",
+    "uptimeDay": "99.63%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "98.63%",
     "uptimeYear": "98.86%",
     "time": 179,
-    "timeDay": 90,
-    "timeWeek": 96,
-    "timeMonth": 226,
+    "timeDay": 145,
+    "timeWeek": 113,
+    "timeMonth": 227,
     "timeYear": 179,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -645,7 +645,7 @@
       "2026-08-04": 86,
       "2026-08-03": 4,
       "2026-08-14": 505,
-      "2026-08-29": 1
+      "2026-08-29": 5
     }
   },
   {
@@ -691,16 +691,16 @@
     "url": "https://www.githubstatus.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.githubstatus.com.ico",
     "slug": "git-hub",
-    "status": "down",
+    "status": "up",
     "uptime": "99.07%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.79%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.78%",
     "uptimeYear": "99.07%",
     "time": 166,
-    "timeDay": 38,
-    "timeWeek": 108,
-    "timeMonth": 118,
+    "timeDay": 98,
+    "timeWeek": 120,
+    "timeMonth": 120,
     "timeYear": 166,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -722,7 +722,7 @@
       "2026-07-28": 24,
       "2026-08-04": 86,
       "2026-08-03": 4,
-      "2026-08-29": 1
+      "2026-08-29": 5
     }
   },
   {
@@ -768,16 +768,16 @@
     "url": "https://status.npmjs.org",
     "icon": "https://icons.duckduckgo.com/ip3/status.npmjs.org.ico",
     "slug": "npm",
-    "status": "down",
+    "status": "up",
     "uptime": "99.08%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.80%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.79%",
     "uptimeYear": "99.08%",
     "time": 252,
-    "timeDay": 162,
-    "timeWeek": 180,
-    "timeMonth": 300,
+    "timeDay": 186,
+    "timeWeek": 186,
+    "timeMonth": 299,
     "timeYear": 252,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -799,7 +799,7 @@
       "2026-07-28": 23,
       "2026-08-04": 85,
       "2026-08-03": 3,
-      "2026-08-29": 1
+      "2026-08-29": 5
     }
   },
   {
