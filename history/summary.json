@@ -254,17 +254,17 @@
     "url": "https://spark-api.wedd.au/api/v1/public/status",
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
-    "status": "down",
+    "status": "up",
     "uptime": "89.85%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "98.93%",
-    "uptimeMonth": "96.73%",
+    "uptimeDay": "99.61%",
+    "uptimeWeek": "98.88%",
+    "uptimeMonth": "96.72%",
     "uptimeYear": "89.85%",
-    "time": 839,
-    "timeDay": 952,
-    "timeWeek": 706,
-    "timeMonth": 1504,
-    "timeYear": 839,
+    "time": 840,
+    "timeDay": 985,
+    "timeWeek": 737,
+    "timeMonth": 1496,
+    "timeYear": 840,
     "dailyMinutesDown": {
       "2026-04-04": 647,
       "2026-04-03": 1440,
@@ -315,7 +315,7 @@
       "2026-08-22": 319,
       "2026-08-24": 15,
       "2026-09-08": 107,
-      "2026-09-10": 1
+      "2026-09-10": 6
     }
   },
   {
@@ -323,16 +323,16 @@
     "url": "https://minecraft.wedd.au",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-site",
-    "status": "down",
-    "uptime": "88.91%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "98.93%",
-    "uptimeMonth": "93.79%",
-    "uptimeYear": "88.91%",
+    "status": "up",
+    "uptime": "88.90%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "98.89%",
+    "uptimeMonth": "93.78%",
+    "uptimeYear": "88.90%",
     "time": 602,
-    "timeDay": 848,
-    "timeWeek": 659,
-    "timeMonth": 601,
+    "timeDay": 762,
+    "timeWeek": 653,
+    "timeMonth": 600,
     "timeYear": 602,
     "dailyMinutesDown": {
       "2026-07-22": 604,
@@ -356,7 +356,7 @@
       "2026-08-26": 60,
       "2026-08-28": 26,
       "2026-09-08": 107,
-      "2026-09-10": 1
+      "2026-09-10": 5
     }
   },
   {
@@ -364,17 +364,17 @@
     "url": "https://minecraft.wedd.au/api/status",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-api",
-    "status": "down",
-    "uptime": "88.91%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "98.94%",
-    "uptimeMonth": "93.80%",
-    "uptimeYear": "88.91%",
-    "time": 515,
-    "timeDay": 432,
-    "timeWeek": 523,
-    "timeMonth": 510,
-    "timeYear": 515,
+    "status": "up",
+    "uptime": "88.90%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "98.89%",
+    "uptimeMonth": "93.79%",
+    "uptimeYear": "88.90%",
+    "time": 517,
+    "timeDay": 552,
+    "timeWeek": 547,
+    "timeMonth": 516,
+    "timeYear": 517,
     "dailyMinutesDown": {
       "2026-07-22": 604,
       "2026-07-21": 1440,
@@ -397,7 +397,7 @@
       "2026-08-26": 60,
       "2026-08-28": 26,
       "2026-09-08": 107,
-      "2026-09-10": 0
+      "2026-09-10": 5
     }
   },
   {
