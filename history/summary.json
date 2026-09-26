@@ -326,17 +326,17 @@
     "url": "https://minecraft.wedd.au",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-site",
-    "status": "down",
-    "uptime": "90.78%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "97.10%",
-    "uptimeMonth": "98.99%",
-    "uptimeYear": "90.78%",
-    "time": 629,
-    "timeDay": 979,
-    "timeWeek": 804,
-    "timeMonth": 698,
-    "timeYear": 629,
+    "status": "up",
+    "uptime": "90.77%",
+    "uptimeDay": "99.43%",
+    "uptimeWeek": "97.03%",
+    "uptimeMonth": "98.98%",
+    "uptimeYear": "90.77%",
+    "time": 630,
+    "timeDay": 903,
+    "timeWeek": 800,
+    "timeMonth": 700,
+    "timeYear": 630,
     "dailyMinutesDown": {
       "2026-07-22": 604,
       "2026-07-21": 1440,
@@ -361,7 +361,7 @@
       "2026-09-08": 107,
       "2026-09-15": 16,
       "2026-09-20": 292,
-      "2026-09-26": 1
+      "2026-09-26": 8
     }
   },
   {
@@ -369,17 +369,17 @@
     "url": "https://minecraft.wedd.au/api/status",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-api",
-    "status": "down",
+    "status": "up",
     "uptime": "90.78%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "97.10%",
-    "uptimeMonth": "99.00%",
+    "uptimeDay": "99.45%",
+    "uptimeWeek": "97.03%",
+    "uptimeMonth": "98.98%",
     "uptimeYear": "90.78%",
-    "time": 524,
-    "timeDay": 629,
-    "timeWeek": 541,
-    "timeMonth": 554,
-    "timeYear": 524,
+    "time": 525,
+    "timeDay": 660,
+    "timeWeek": 557,
+    "timeMonth": 558,
+    "timeYear": 525,
     "dailyMinutesDown": {
       "2026-07-22": 604,
       "2026-07-21": 1440,
@@ -404,7 +404,7 @@
       "2026-09-08": 107,
       "2026-09-15": 16,
       "2026-09-20": 291,
-      "2026-09-26": 1
+      "2026-09-26": 8
     }
   },
   {
