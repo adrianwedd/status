@@ -1,7 +1,7 @@
 url: https://social.adrianwedd.com/api/health
-status: down
-code: 503
-responseTime: 539
-lastUpdated: 2026-10-07T11:58:10.757Z
+status: up
+code: 200
+responseTime: 870
+lastUpdated: 2026-10-07T12:24:47.000Z
 startTime: 2026-03-31T11:55:50.277Z
 generator: Upptime <https://github.com/upptime/upptime>
