@@ -96,17 +96,17 @@
     "url": "https://social.adrianwedd.com/api/health",
     "icon": "https://adrianwedd.com/favicon.svg",
     "slug": "social-worker",
-    "status": "down",
-    "uptime": "98.76%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "96.76%",
-    "uptimeMonth": "99.21%",
-    "uptimeYear": "98.76%",
-    "time": 785,
-    "timeDay": 1544,
-    "timeWeek": 1281,
-    "timeMonth": 1533,
-    "timeYear": 785,
+    "status": "up",
+    "uptime": "98.75%",
+    "uptimeDay": "99.43%",
+    "uptimeWeek": "96.68%",
+    "uptimeMonth": "99.19%",
+    "uptimeYear": "98.75%",
+    "time": 813,
+    "timeDay": 3502,
+    "timeWeek": 1690,
+    "timeMonth": 1680,
+    "timeYear": 813,
     "dailyMinutesDown": {
       "2026-07-31": 205,
       "2026-08-07": 47,
@@ -118,7 +118,7 @@
       "2026-09-28": 19,
       "2026-10-04": 300,
       "2026-10-07": 27,
-      "2026-10-09": 0
+      "2026-10-09": 8
     }
   },
   {
