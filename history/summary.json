@@ -257,16 +257,16 @@
     "url": "https://spark-api.wedd.au/api/v1/public/status",
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
-    "status": "down",
+    "status": "up",
     "uptime": "82.79%",
-    "uptimeDay": "26.73%",
+    "uptimeDay": "26.76%",
     "uptimeWeek": "3.82%",
-    "uptimeMonth": "39.57%",
+    "uptimeMonth": "39.55%",
     "uptimeYear": "82.79%",
     "time": 818,
-    "timeDay": 541,
-    "timeWeek": 201,
-    "timeMonth": 732,
+    "timeDay": 636,
+    "timeWeek": 270,
+    "timeMonth": 735,
     "timeYear": 818,
     "dailyMinutesDown": {
       "2026-04-04": 647,
@@ -343,7 +343,7 @@
       "2026-10-12": 1440,
       "2026-10-11": 1440,
       "2026-10-10": 1050,
-      "2026-10-24": 0
+      "2026-10-24": 9
     }
   },
   {
