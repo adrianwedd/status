@@ -1,7 +1,7 @@
 url: https://minecraft.wedd.au/api/status
-status: down
-code: 530
-responseTime: 107
-lastUpdated: 2026-10-29T17:36:39.351Z
+status: up
+code: 200
+responseTime: 846
+lastUpdated: 2026-10-29T18:28:59.411Z
 startTime: 2026-07-06T01:53:34.281Z
 generator: Upptime <https://github.com/upptime/upptime>
