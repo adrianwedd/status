@@ -257,17 +257,17 @@
     "url": "https://spark-api.wedd.au/api/v1/public/status",
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
-    "status": "up",
+    "status": "down",
     "uptime": "83.24%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "82.40%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "82.57%",
     "uptimeMonth": "39.57%",
     "uptimeYear": "83.24%",
-    "time": 818,
-    "timeDay": 777,
-    "timeWeek": 683,
-    "timeMonth": 731,
-    "timeYear": 818,
+    "time": 816,
+    "timeDay": 450,
+    "timeWeek": 636,
+    "timeMonth": 716,
+    "timeYear": 816,
     "dailyMinutesDown": {
       "2026-04-04": 647,
       "2026-04-03": 1440,
@@ -342,7 +342,8 @@
       "2026-10-13": 1440,
       "2026-10-12": 1440,
       "2026-10-11": 1440,
-      "2026-10-10": 1050
+      "2026-10-10": 1050,
+      "2026-10-29": 1
     }
   },
   {
@@ -351,11 +352,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-site",
     "status": "down",
-    "uptime": "88.63%",
-    "uptimeDay": "99.94%",
+    "uptime": "88.62%",
+    "uptimeDay": "98.74%",
     "uptimeWeek": "93.70%",
-    "uptimeMonth": "81.81%",
-    "uptimeYear": "88.63%",
+    "uptimeMonth": "81.77%",
+    "uptimeYear": "88.62%",
     "time": 592,
     "timeDay": 399,
     "timeWeek": 551,
@@ -400,7 +401,7 @@
       "2026-10-21": 158,
       "2026-10-23": 252,
       "2026-10-22": 620,
-      "2026-10-29": 1
+      "2026-10-29": 18
     }
   },
   {
@@ -409,11 +410,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-api",
     "status": "down",
-    "uptime": "88.64%",
-    "uptimeDay": "99.96%",
+    "uptime": "88.63%",
+    "uptimeDay": "98.75%",
     "uptimeWeek": "93.70%",
-    "uptimeMonth": "81.82%",
-    "uptimeYear": "88.64%",
+    "uptimeMonth": "81.78%",
+    "uptimeYear": "88.63%",
     "time": 499,
     "timeDay": 409,
     "timeWeek": 637,
@@ -458,7 +459,7 @@
       "2026-10-21": 158,
       "2026-10-23": 252,
       "2026-10-22": 620,
-      "2026-10-29": 1
+      "2026-10-29": 18
     }
   },
   {
