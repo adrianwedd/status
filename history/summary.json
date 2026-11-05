@@ -31,7 +31,7 @@
     "time": 227,
     "timeDay": 323,
     "timeWeek": 457,
-    "timeMonth": 283,
+    "timeMonth": 285,
     "timeYear": 227,
     "dailyMinutesDown": {
       "2026-03-31": 30
@@ -51,7 +51,7 @@
     "time": 129,
     "timeDay": 225,
     "timeWeek": 209,
-    "timeMonth": 187,
+    "timeMonth": 190,
     "timeYear": 129,
     "dailyMinutesDown": {}
   },
@@ -69,7 +69,7 @@
     "time": 128,
     "timeDay": 251,
     "timeWeek": 198,
-    "timeMonth": 191,
+    "timeMonth": 194,
     "timeYear": 128,
     "dailyMinutesDown": {}
   },
@@ -87,7 +87,7 @@
     "time": 126,
     "timeDay": 349,
     "timeWeek": 196,
-    "timeMonth": 182,
+    "timeMonth": 184,
     "timeYear": 126,
     "dailyMinutesDown": {}
   },
@@ -105,7 +105,7 @@
     "time": 923,
     "timeDay": 2170,
     "timeWeek": 1758,
-    "timeMonth": 1880,
+    "timeMonth": 1892,
     "timeYear": 923,
     "dailyMinutesDown": {
       "2026-07-31": 205,
@@ -134,7 +134,7 @@
     "time": 184,
     "timeDay": 269,
     "timeWeek": 229,
-    "timeMonth": 227,
+    "timeMonth": 226,
     "timeYear": 184,
     "dailyMinutesDown": {}
   },
@@ -152,7 +152,7 @@
     "time": 203,
     "timeDay": 196,
     "timeWeek": 218,
-    "timeMonth": 238,
+    "timeMonth": 240,
     "timeYear": 203,
     "dailyMinutesDown": {}
   },
@@ -170,7 +170,7 @@
     "time": 403,
     "timeDay": 539,
     "timeWeek": 414,
-    "timeMonth": 399,
+    "timeMonth": 400,
     "timeYear": 403,
     "dailyMinutesDown": {}
   },
@@ -188,7 +188,7 @@
     "time": 237,
     "timeDay": 347,
     "timeWeek": 278,
-    "timeMonth": 246,
+    "timeMonth": 249,
     "timeYear": 237,
     "dailyMinutesDown": {}
   },
@@ -206,7 +206,7 @@
     "time": 150,
     "timeDay": 177,
     "timeWeek": 160,
-    "timeMonth": 148,
+    "timeMonth": 149,
     "timeYear": 150,
     "dailyMinutesDown": {}
   },
@@ -224,7 +224,7 @@
     "time": 202,
     "timeDay": 216,
     "timeWeek": 225,
-    "timeMonth": 203,
+    "timeMonth": 205,
     "timeYear": 202,
     "dailyMinutesDown": {}
   },
@@ -242,7 +242,7 @@
     "time": 222,
     "timeDay": 487,
     "timeWeek": 333,
-    "timeMonth": 399,
+    "timeMonth": 401,
     "timeYear": 222,
     "dailyMinutesDown": {
       "2026-04-04": 647,
@@ -257,16 +257,16 @@
     "url": "https://spark-api.wedd.au/api/v1/public/status",
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
-    "status": "down",
+    "status": "up",
     "uptime": "83.77%",
-    "uptimeDay": "98.74%",
-    "uptimeWeek": "99.82%",
+    "uptimeDay": "98.42%",
+    "uptimeWeek": "99.77%",
     "uptimeMonth": "49.98%",
     "uptimeYear": "83.77%",
     "time": 821,
-    "timeDay": 430,
-    "timeWeek": 957,
-    "timeMonth": 840,
+    "timeDay": 587,
+    "timeWeek": 965,
+    "timeMonth": 863,
     "timeYear": 821,
     "dailyMinutesDown": {
       "2026-04-04": 647,
@@ -344,7 +344,7 @@
       "2026-10-11": 1440,
       "2026-10-10": 1050,
       "2026-10-29": 35,
-      "2026-11-05": 18
+      "2026-11-05": 23
     }
   },
   {
@@ -352,17 +352,17 @@
     "url": "https://minecraft.wedd.au",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-site",
-    "status": "down",
+    "status": "up",
     "uptime": "89.26%",
-    "uptimeDay": "98.77%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "82.84%",
+    "uptimeDay": "98.45%",
+    "uptimeWeek": "99.78%",
+    "uptimeMonth": "82.83%",
     "uptimeYear": "89.26%",
-    "time": 602,
-    "timeDay": 403,
-    "timeWeek": 694,
-    "timeMonth": 531,
-    "timeYear": 602,
+    "time": 604,
+    "timeDay": 552,
+    "timeWeek": 720,
+    "timeMonth": 535,
+    "timeYear": 604,
     "dailyMinutesDown": {
       "2026-07-22": 604,
       "2026-07-21": 1440,
@@ -403,7 +403,7 @@
       "2026-10-23": 252,
       "2026-10-22": 620,
       "2026-10-29": 53,
-      "2026-11-05": 18
+      "2026-11-05": 22
     }
   },
   {
@@ -411,17 +411,17 @@
     "url": "https://minecraft.wedd.au/api/status",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-api",
-    "status": "down",
-    "uptime": "89.27%",
-    "uptimeDay": "98.80%",
-    "uptimeWeek": "99.83%",
-    "uptimeMonth": "82.84%",
-    "uptimeYear": "89.27%",
-    "time": 504,
-    "timeDay": 193,
-    "timeWeek": 543,
-    "timeMonth": 462,
-    "timeYear": 504,
+    "status": "up",
+    "uptime": "89.26%",
+    "uptimeDay": "98.48%",
+    "uptimeWeek": "99.78%",
+    "uptimeMonth": "82.83%",
+    "uptimeYear": "89.26%",
+    "time": 506,
+    "timeDay": 356,
+    "timeWeek": 568,
+    "timeMonth": 464,
+    "timeYear": 506,
     "dailyMinutesDown": {
       "2026-07-22": 604,
       "2026-07-21": 1440,
@@ -462,7 +462,7 @@
       "2026-10-23": 252,
       "2026-10-22": 620,
       "2026-10-29": 52,
-      "2026-11-05": 18
+      "2026-11-05": 22
     }
   },
   {
@@ -479,7 +479,7 @@
     "time": 177,
     "timeDay": 271,
     "timeWeek": 199,
-    "timeMonth": 203,
+    "timeMonth": 206,
     "timeYear": 177,
     "dailyMinutesDown": {
       "2026-04-09": 10,
@@ -501,7 +501,7 @@
     "time": 154,
     "timeDay": 203,
     "timeWeek": 200,
-    "timeMonth": 187,
+    "timeMonth": 189,
     "timeYear": 154,
     "dailyMinutesDown": {
       "2026-04-30": 34
@@ -521,7 +521,7 @@
     "time": 212,
     "timeDay": 304,
     "timeWeek": 247,
-    "timeMonth": 243,
+    "timeMonth": 246,
     "timeYear": 212,
     "dailyMinutesDown": {
       "2026-05-05": 31
@@ -541,7 +541,7 @@
     "time": 218,
     "timeDay": 358,
     "timeWeek": 279,
-    "timeMonth": 274,
+    "timeMonth": 277,
     "timeYear": 218,
     "dailyMinutesDown": {
       "2026-04-16": 19
@@ -561,7 +561,7 @@
     "time": 339,
     "timeDay": 435,
     "timeWeek": 385,
-    "timeMonth": 359,
+    "timeMonth": 360,
     "timeYear": 339,
     "dailyMinutesDown": {}
   },
@@ -579,7 +579,7 @@
     "time": 600,
     "timeDay": 678,
     "timeWeek": 584,
-    "timeMonth": 606,
+    "timeMonth": 609,
     "timeYear": 600,
     "dailyMinutesDown": {
       "2026-07-29": 20
@@ -599,7 +599,7 @@
     "time": 269,
     "timeDay": 215,
     "timeWeek": 270,
-    "timeMonth": 378,
+    "timeMonth": 382,
     "timeYear": 269,
     "dailyMinutesDown": {}
   },
@@ -617,7 +617,7 @@
     "time": 252,
     "timeDay": 215,
     "timeWeek": 265,
-    "timeMonth": 410,
+    "timeMonth": 414,
     "timeYear": 252,
     "dailyMinutesDown": {
       "2026-04-24": 23
@@ -637,7 +637,7 @@
     "time": 462,
     "timeDay": 162,
     "timeWeek": 431,
-    "timeMonth": 612,
+    "timeMonth": 610,
     "timeYear": 462,
     "dailyMinutesDown": {
       "2026-04-16": 29,
@@ -658,7 +658,7 @@
     "time": 121,
     "timeDay": 127,
     "timeWeek": 103,
-    "timeMonth": 128,
+    "timeMonth": 130,
     "timeYear": 121,
     "dailyMinutesDown": {}
   },
@@ -676,7 +676,7 @@
     "time": 223,
     "timeDay": 197,
     "timeWeek": 252,
-    "timeMonth": 231,
+    "timeMonth": 232,
     "timeYear": 223,
     "dailyMinutesDown": {}
   },
@@ -694,7 +694,7 @@
     "time": 170,
     "timeDay": 141,
     "timeWeek": 144,
-    "timeMonth": 134,
+    "timeMonth": 137,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -734,7 +734,7 @@
     "time": 739,
     "timeDay": 1771,
     "timeWeek": 1248,
-    "timeMonth": 1214,
+    "timeMonth": 1230,
     "timeYear": 739,
     "dailyMinutesDown": {
       "2026-08-13": 18
@@ -754,7 +754,7 @@
     "time": 152,
     "timeDay": 194,
     "timeWeek": 130,
-    "timeMonth": 136,
+    "timeMonth": 139,
     "timeYear": 152,
     "dailyMinutesDown": {}
   },
@@ -772,7 +772,7 @@
     "time": 157,
     "timeDay": 167,
     "timeWeek": 164,
-    "timeMonth": 136,
+    "timeMonth": 138,
     "timeYear": 157,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -811,7 +811,7 @@
     "time": 187,
     "timeDay": 130,
     "timeWeek": 140,
-    "timeMonth": 149,
+    "timeMonth": 150,
     "timeYear": 187,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -849,7 +849,7 @@
     "time": 292,
     "timeDay": 234,
     "timeWeek": 308,
-    "timeMonth": 690,
+    "timeMonth": 700,
     "timeYear": 292,
     "dailyMinutesDown": {
       "2026-04-09": 36,
@@ -888,7 +888,7 @@
     "time": 171,
     "timeDay": 204,
     "timeWeek": 202,
-    "timeMonth": 199,
+    "timeMonth": 201,
     "timeYear": 171,
     "dailyMinutesDown": {}
   }
