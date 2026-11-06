@@ -258,11 +258,11 @@
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
     "status": "up",
-    "uptime": "83.77%",
-    "uptimeDay": "98.42%",
-    "uptimeWeek": "99.77%",
-    "uptimeMonth": "49.98%",
-    "uptimeYear": "83.77%",
+    "uptime": "83.78%",
+    "uptimeDay": "98.81%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "50.12%",
+    "uptimeYear": "83.78%",
     "time": 821,
     "timeDay": 587,
     "timeWeek": 965,
@@ -344,7 +344,7 @@
       "2026-10-11": 1440,
       "2026-10-10": 1050,
       "2026-10-29": 35,
-      "2026-11-05": 23
+      "2026-11-05": 17
     }
   },
   {
@@ -353,11 +353,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-site",
     "status": "up",
-    "uptime": "89.26%",
-    "uptimeDay": "98.45%",
-    "uptimeWeek": "99.78%",
-    "uptimeMonth": "82.83%",
-    "uptimeYear": "89.26%",
+    "uptime": "89.27%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "82.84%",
+    "uptimeYear": "89.27%",
     "time": 604,
     "timeDay": 552,
     "timeWeek": 720,
@@ -403,7 +403,7 @@
       "2026-10-23": 252,
       "2026-10-22": 620,
       "2026-10-29": 53,
-      "2026-11-05": 22
+      "2026-11-05": 17
     }
   },
   {
@@ -412,11 +412,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-api",
     "status": "up",
-    "uptime": "89.26%",
-    "uptimeDay": "98.48%",
-    "uptimeWeek": "99.78%",
-    "uptimeMonth": "82.83%",
-    "uptimeYear": "89.26%",
+    "uptime": "89.27%",
+    "uptimeDay": "98.84%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "82.85%",
+    "uptimeYear": "89.27%",
     "time": 506,
     "timeDay": 356,
     "timeWeek": 568,
@@ -462,7 +462,7 @@
       "2026-10-23": 252,
       "2026-10-22": 620,
       "2026-10-29": 52,
-      "2026-11-05": 22
+      "2026-11-05": 17
     }
   },
   {
