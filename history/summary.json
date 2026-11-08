@@ -570,20 +570,20 @@
     "url": "https://gh.adrianwedd.com",
     "icon": "https://adrianwedd.com/favicon.svg",
     "slug": "link-redirects-worker-links",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
-    "time": 592,
-    "timeDay": 271,
-    "timeWeek": 504,
-    "timeMonth": 591,
-    "timeYear": 592,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "98.88%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.98%",
+    "time": 686,
+    "timeDay": 3882,
+    "timeWeek": 1682,
+    "timeMonth": 910,
+    "timeYear": 686,
     "dailyMinutesDown": {
       "2026-07-29": 20,
-      "2026-11-08": 0
+      "2026-11-08": 16
     }
   },
   {
