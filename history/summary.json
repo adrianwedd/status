@@ -257,16 +257,16 @@
     "url": "https://spark-api.wedd.au/api/v1/public/status",
     "icon": "https://spark.wedd.au/og-image.png",
     "slug": "spark-api-status",
-    "status": "up",
-    "uptime": "84.03%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.83%",
+    "status": "down",
+    "uptime": "84.05%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.82%",
     "uptimeMonth": "54.86%",
-    "uptimeYear": "84.03%",
+    "uptimeYear": "84.05%",
     "time": 821,
-    "timeDay": 883,
-    "timeWeek": 978,
-    "timeMonth": 587,
+    "timeDay": 841,
+    "timeWeek": 962,
+    "timeMonth": 592,
     "timeYear": 821,
     "dailyMinutesDown": {
       "2026-04-04": 647,
@@ -344,7 +344,8 @@
       "2026-10-11": 1440,
       "2026-10-10": 1050,
       "2026-10-29": 35,
-      "2026-11-05": 17
+      "2026-11-05": 17,
+      "2026-11-09": 1
     }
   },
   {
@@ -353,11 +354,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-site",
     "status": "down",
-    "uptime": "89.57%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "82.84%",
-    "uptimeYear": "89.57%",
+    "uptime": "89.46%",
+    "uptimeDay": "84.64%",
+    "uptimeWeek": "97.64%",
+    "uptimeMonth": "82.33%",
+    "uptimeYear": "89.46%",
     "time": 604,
     "timeDay": 534,
     "timeWeek": 670,
@@ -404,7 +405,7 @@
       "2026-10-22": 620,
       "2026-10-29": 53,
       "2026-11-05": 17,
-      "2026-11-09": 1
+      "2026-11-09": 221
     }
   },
   {
@@ -413,11 +414,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.wedd.au.ico",
     "slug": "minecraft-status-api",
     "status": "down",
-    "uptime": "89.57%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.83%",
-    "uptimeMonth": "82.84%",
-    "uptimeYear": "89.57%",
+    "uptime": "89.46%",
+    "uptimeDay": "84.66%",
+    "uptimeWeek": "97.64%",
+    "uptimeMonth": "82.34%",
+    "uptimeYear": "89.46%",
     "time": 507,
     "timeDay": 442,
     "timeWeek": 548,
@@ -464,7 +465,7 @@
       "2026-10-22": 620,
       "2026-10-29": 52,
       "2026-11-05": 17,
-      "2026-11-09": 1
+      "2026-11-09": 221
     }
   },
   {
@@ -690,11 +691,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.claude.com.ico",
     "slug": "anthropic-claude",
     "status": "up",
-    "uptime": "99.22%",
+    "uptime": "99.23%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.22%",
+    "uptimeYear": "99.23%",
     "time": 169,
     "timeDay": 152,
     "timeWeek": 108,
